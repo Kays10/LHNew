@@ -6,7 +6,7 @@
   <meta name="description" content="Contact LH Open Minded Institute - Get in touch with us to learn more about our programs or partnerships.">
   <title>Contact Us | LH Open Minded Institute</title>
   <link rel="canonical" href="https://lhopenminded.co.za/contact.html">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -42,27 +42,26 @@
     <a href="programs.html" class="btn-primary">ENROL NOW</a>
   </div>
 
-  <section class="hero short-hero" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80'); min-height: 40vh;">
-    <div class="hero-content">
-      <h1>Contact Us</h1>
-      <div class="breadcrumb">
-        <a href="index.html">Home</a> &gt; Contacts
+  <section class="section" style="background: linear-gradient(135deg, #0D1547 0%, #1A237E 100%); color: white; padding: 8rem 0 6rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <h1 style="font-family: var(--font-heading); font-size: 72px; font-weight: 800;">Contact Us</h1>
+        <p style="color: rgba(255,255,255,0.9); font-size: 20px; max-width: 600px; margin: 0 auto;">We'd love to hear from you. Get in touch with us today.</p>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="split-layout">
+      <div class="split-layout" style="align-items: flex-start;">
         <div class="reveal">
-          <span class="section-label">GET IN TOUCH</span>
-          <h2>We'd Love to Hear From You</h2>
-          <p style="color: var(--color-text-muted); margin-bottom: var(--space-md);">Whether you're a young person looking to enrol, an organization interested in partnering with us, or simply want to learn more - reach out.</p>
+          <h2 style="font-family: var(--font-heading); font-size: 48px; font-weight: 800; color: var(--color-primary); margin-bottom: 1.5rem;">Let's Talk</h2>
+          <p style="color: var(--color-text-muted); margin-bottom: 2rem; font-size: 18px; line-height: 1.7;">Whether you're a young person looking to enrol, an organization interested in partnering with us, or simply want to learn more - reach out.</p>
           
           <div class="contact-info-block">
-            <svg viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: var(--color-primary); flex-shrink: 0;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <svg viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: var(--color-cyan); flex-shrink: 0;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
             <div>
-              <h4 style="margin-bottom: var(--space-xs);">Address</h4>
+              <h4 style="margin-bottom: var(--space-xs); font-family: var(--font-heading); font-size: 20px; color: var(--color-primary);">Address</h4>
               <p style="color: var(--color-text-muted);">366 Pretoria Ave, Ferndale, Randburg, 2194, Gauteng</p>
             </div>
           </div>
@@ -76,20 +75,20 @@
         </div>
         
         <div class="reveal">
-          <div class="form-card">
+          <div class="form-card" style="background: linear-gradient(135deg, #F0F4FF 0%, white 100%);">
             <form id="contactForm">
               <div class="form-group">
-                <label for="name">Name *</label>
+                <label for="name" style="font-weight: 600; color: var(--color-primary);">Name *</label>
                 <input type="text" id="name" name="name" required>
                 <div class="error"></div>
               </div>
               <div class="form-group">
-                <label for="email">Email *</label>
+                <label for="email" style="font-weight: 600; color: var(--color-primary);">Email *</label>
                 <input type="email" id="email" name="email" required>
                 <div class="error"></div>
               </div>
               <div class="form-group">
-                <label for="source">How did you find us? *</label>
+                <label for="source" style="font-weight: 600; color: var(--color-primary);">How did you find us? *</label>
                 <select id="source" name="source" required>
                   <option value="">Select an option</option>
                   <option value="google">Google Search</option>
@@ -100,13 +99,13 @@
                 <div class="error"></div>
               </div>
               <div class="form-group">
-                <label for="message">Message *</label>
+                <label for="message" style="font-weight: 600; color: var(--color-primary);">Message *</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
                 <div class="error"></div>
               </div>
               <div class="form-group checkbox">
                 <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter" style="margin-bottom: 0;">I want to receive newsletters</label>
+                <label for="newsletter" style="margin-bottom: 0; color: var(--color-text-muted);">I want to receive newsletters</label>
               </div>
               <button type="submit" class="btn-primary" style="width: 100%;">SEND MESSAGE</button>
             </form>
